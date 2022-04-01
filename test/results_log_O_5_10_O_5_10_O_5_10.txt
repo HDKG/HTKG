@@ -1,0 +1,70 @@
+Total #samples: 20000	 # samples with present keyphrases: 18999	 # samples with absent keyphrases: 16407
+Max. unique targets per src: 66
+Total #unique predictions: 894030/1000000, dup ratio 0.106
+===================================all====================================
+#predictions after filtering: 892649	 #predictions after filtering per src:44.632
+#unique targets: 105343	 #unique targets per src:5.267
+Begin===============classification metrics all@O===============Begin
+#target: 105343, #predictions: 105343, #corrects: 34882
+Micro:	P@O=0.33113	R@O=0.33113	F1@O=0.33113
+Macro:	P@O=0.31887	R@O=0.31887	F1@O=0.31887
+Begin===============classification metrics all@5===============Begin
+#target: 105343, #predictions: 100000, #corrects: 30951
+Micro:	P@5=0.30951	R@5=0.29381	F1@5=0.30146
+Macro:	P@5=0.30951	R@5=0.32899	F1@5=0.31895
+Begin===============classification metrics all@10===============Begin
+#target: 105343, #predictions: 200000, #corrects: 42545
+Micro:	P@10=0.21272	R@10=0.40387	F1@10=0.27867
+Macro:	P@10=0.21272	R@10=0.43865	F1@10=0.28651
+Begin==================Ranking metrics all@O==================Begin
+	MAP@O=0.24619	NDCG@O=0.47829	AlphaNDCG@O=0.48277
+Begin==================Ranking metrics all@5==================Begin
+	MAP@5=0.24762	NDCG@5=0.49066	AlphaNDCG@5=0.48414
+Begin==================Ranking metrics all@10==================Begin
+	MAP@10=0.28614	NDCG@10=0.56075	AlphaNDCG@10=0.54003
+===================================present====================================
+#predictions after filtering: 504134	 #predictions after filtering per src:25.207
+#unique targets: 66267	 #unique targets per src:3.313
+Begin===============classification metrics present@O===============Begin
+#target: 66267, #predictions: 66267, #corrects: 29962
+Micro:	P@O=0.45214	R@O=0.45214	F1@O=0.45214
+Macro:	P@O=0.3944	R@O=0.3944	F1@O=0.3944
+Begin===============classification metrics present@5===============Begin
+#target: 66267, #predictions: 100000, #corrects: 30955
+Micro:	P@5=0.30955	R@5=0.46713	F1@5=0.37235
+Macro:	P@5=0.30955	R@5=0.53081	F1@5=0.39105
+Begin===============classification metrics present@10===============Begin
+#target: 66267, #predictions: 200000, #corrects: 42207
+Micro:	P@10=0.21104	R@10=0.63692	F1@10=0.31703
+Macro:	P@10=0.21103	R@10=0.6909	F1@10=0.32331
+Begin==================Ranking metrics present@O==================Begin
+	MAP@O=0.33764	NDCG@O=0.44804	AlphaNDCG@O=0.48968
+Begin==================Ranking metrics present@5==================Begin
+	MAP@5=0.39244	NDCG@5=0.53124	AlphaNDCG@5=0.5234
+Begin==================Ranking metrics present@10==================Begin
+	MAP@10=0.44401	NDCG@10=0.60336	AlphaNDCG@10=0.58961
+===================================absent====================================
+#predictions after filtering: 388515	 #predictions after filtering per src:19.426
+#unique targets: 39076	 #unique targets per src:1.954
+Begin===============classification metrics absent@O===============Begin
+#target: 39076, #predictions: 39076, #corrects: 3010
+Micro:	P@O=0.077029	R@O=0.077029	F1@O=0.077029
+Macro:	P@O=0.060472	R@O=0.060472	F1@O=0.060472
+Begin===============classification metrics absent@5===============Begin
+#target: 39076, #predictions: 100000, #corrects: 4171
+Micro:	P@5=0.04171	R@5=0.10674	F1@5=0.059982
+Macro:	P@5=0.04171	R@5=0.097933	F1@5=0.058503
+Begin===============classification metrics absent@10===============Begin
+#target: 39076, #predictions: 200000, #corrects: 5749
+Micro:	P@10=0.028745	R@10=0.14712	F1@10=0.048093
+Macro:	P@10=0.028745	R@10=0.13233	F1@10=0.047231
+Begin==================Ranking metrics absent@O==================Begin
+	MAP@O=0.049836	NDCG@O=0.10078	AlphaNDCG@O=0.11669
+Begin==================Ranking metrics absent@5==================Begin
+	MAP@5=0.062325	NDCG@5=0.12587	AlphaNDCG@5=0.14631
+Begin==================Ranking metrics absent@10==================Begin
+	MAP@10=0.067858	NDCG@10=0.14702	AlphaNDCG@10=0.17413
+===================================MAE stat====================================
+MAE on keyphrase numbers (all): 39.372
+MAE on keyphrase numbers (present): 21.972
+MAE on keyphrase numbers (absent): 17.481

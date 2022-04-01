@@ -1,0 +1,46 @@
+04/01/2022 19:44:16 [INFO] pred_evaluate: Parameters:
+04/01/2022 19:44:16 [INFO] pred_evaluate: pred_file_path    :    pred/predict__kp20k_s512_t10.joint_train.copy.seed9527.topic_num20.emb150.vs50000.dec300.20211219-221957__e10.train_loss=18.455.val_loss=19.743.model-15h-28m/predictions.txt
+04/01/2022 19:44:16 [INFO] pred_evaluate: src_file_path    :    kp20k/test_src.txt
+04/01/2022 19:44:16 [INFO] pred_evaluate: trg_file_path    :    kp20k/test_trg.txt
+04/01/2022 19:44:16 [INFO] pred_evaluate: export_filtered_pred    :    True
+04/01/2022 19:44:16 [INFO] pred_evaluate: filtered_pred_path    :    
+04/01/2022 19:44:16 [INFO] pred_evaluate: exp_path    :    test
+04/01/2022 19:44:16 [INFO] pred_evaluate: disable_extra_one_word_filter    :    True
+04/01/2022 19:44:16 [INFO] pred_evaluate: disable_valid_filter    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: num_preds    :    200
+04/01/2022 19:44:16 [INFO] pred_evaluate: debug    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: match_by_str    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: invalidate_unk    :    True
+04/01/2022 19:44:16 [INFO] pred_evaluate: target_separated    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: prediction_separated    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: reverse_sorting    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: tune_f1_v    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: all_ks    :    ['O', '5', '10']
+04/01/2022 19:44:16 [INFO] pred_evaluate: present_ks    :    ['O', '5', '10']
+04/01/2022 19:44:16 [INFO] pred_evaluate: absent_ks    :    ['O', '5', '10']
+04/01/2022 19:44:16 [INFO] pred_evaluate: target_already_stemmed    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: meng_rui_precision    :    False
+04/01/2022 19:44:16 [INFO] pred_evaluate: use_name_variations    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: Parameters:
+04/01/2022 19:44:51 [INFO] pred_evaluate: pred_file_path    :    pred/predict__kp20k_s512_t10.joint_train.copy.seed9527.topic_num20.emb150.vs50000.dec300.20211219-221957__e10.train_loss=18.455.val_loss=19.743.model-15h-28m/predictions.txt
+04/01/2022 19:44:51 [INFO] pred_evaluate: src_file_path    :    data/kp20k/test_src.txt
+04/01/2022 19:44:51 [INFO] pred_evaluate: trg_file_path    :    data/kp20k/test_trg.txt
+04/01/2022 19:44:51 [INFO] pred_evaluate: export_filtered_pred    :    True
+04/01/2022 19:44:51 [INFO] pred_evaluate: filtered_pred_path    :    
+04/01/2022 19:44:51 [INFO] pred_evaluate: exp_path    :    test
+04/01/2022 19:44:51 [INFO] pred_evaluate: disable_extra_one_word_filter    :    True
+04/01/2022 19:44:51 [INFO] pred_evaluate: disable_valid_filter    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: num_preds    :    200
+04/01/2022 19:44:51 [INFO] pred_evaluate: debug    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: match_by_str    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: invalidate_unk    :    True
+04/01/2022 19:44:51 [INFO] pred_evaluate: target_separated    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: prediction_separated    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: reverse_sorting    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: tune_f1_v    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: all_ks    :    ['O', '5', '10']
+04/01/2022 19:44:51 [INFO] pred_evaluate: present_ks    :    ['O', '5', '10']
+04/01/2022 19:44:51 [INFO] pred_evaluate: absent_ks    :    ['O', '5', '10']
+04/01/2022 19:44:51 [INFO] pred_evaluate: target_already_stemmed    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: meng_rui_precision    :    False
+04/01/2022 19:44:51 [INFO] pred_evaluate: use_name_variations    :    False
